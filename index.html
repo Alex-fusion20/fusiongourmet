@@ -630,7 +630,7 @@
             <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
             <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
         </div>
-        <p>Contact: info@fusiongourmet.fr | Tel: +229 0158942930</p>
+        <p>Contact: alexmehou@gmail.com | Tel: +229 01 53 26 41 04</p>
         <p>&copy; 2024 Fusion Gourmet Événement. Tous droits réservés.</p>
     </footer>
 
@@ -683,7 +683,7 @@
         });
 
         // EmailJS Configuration
-        emailjs.init("YOUR_USER_ID"); // Replace with your EmailJS user ID
+        emailjs.init("WqyH-fjQVj5DM3Tcf"); // Replace with your EmailJS user ID
 
         const contactForm = document.getElementById('contactForm');
         const successMessage = document.getElementById('successMessage');
@@ -698,7 +698,7 @@
                 message: document.getElementById('message').value
             };
 
-            emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', templateParams)
+            emailjs.send('service_u8hxoad', 'template_s9c7i76', templateParams)
                 .then(function(response) {
                     console.log('SUCCESS!', response.status, response.text);
                     contactForm.reset();
